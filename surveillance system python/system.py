@@ -101,3 +101,5 @@ while True:
 out.release()
 cap.release()
 cv2.destroyAllWindows()
+
+#CREATED BY THE_LOST_KID
