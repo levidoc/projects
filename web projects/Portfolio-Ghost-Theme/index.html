@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hardy's Portfolio</title>
+        <meta name="description" content="Hello, and welcome to my portfolio! My name is Hardy Mazibeli, and I am thrilled to share with you my work and accomplishments. This portfolio showcases my skills, experience, and projects in Web development, Software development and Programming." />
+        <link rel="icon" type="image/png" href="images/ghost-regular-24.png"/>
+        <!-- Basic Seo Elements -->
+
+        <!-- Link To CSS FILES-->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale-1">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,500;0,600;0,900;0,1000;1,200;1,300&display=swap" rel="stylesheet">
+
+        <!-- Site Icons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+       <header>
+            <navbar>
+                <a href="" class=""><i class='bx bxs-ghost'></i>GHOST</a>
+
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about_anchor">About</a></li>
+                    <li><a href="#projects_anchor">Projects</a></li>
+                    <li><a href="#contact_anchor">Contact</a></li>
+                </ul>
+                <button class="menu_navbar" onclick="toggle_menu()">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </navbar>
+       </header> 
+
+       <aside id="mobile_menu" onclick="toggle_menu()">
+            <ul class="mobile_navbar">
+                <li><a href="#" class="active"><i class='bx bxs-home'></i> Home</a></li>
+                <li><a href="#about_anchor">About</a></li>
+                <li><a href="#projects_anchor">Projects</a></li>
+                <li><a href="#contact_anchor">Contact</a></li>
+            </ul>
+       </aside>
+
+       <!-- Portfolio Introduction -->
+       <section class="introduction">
+            <h4>Welcome To My</h4>
+            <h2><span class="theme_color">Software Development</span></h2>
+            <h4>Portfolio</h4>
+            <p id="text_container">Hello, and welcome to my portfolio! My name is Hardy Mazibeli, and I am thrilled to share with you my work and accomplishments. This portfolio showcases my skills, experience, and projects in Web development, Software development and Programming.</p>
+       </section>
+       <!-- Portfolio Introduction-->
+
+       <div id="about_anchor" style="padding:1rem;"></div>
+       <!-- My Personal Bio-->
+       <section class="about">
+            <div class="about_text">
+                <h3>About Me</h3>
+                <p id="about_text">I have a passion for Programming and cyber security. Throughout my 3 years of experience in freelancing, school and personal development, I have honed my expertise in web development as well as software development. My goal is to become a cyber security specialist.</p>
+                <br>
+                <div class="social_icons">
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-whatsapp' ></i>
+                    <i class='bx bxl-reddit' ></i>
+                </div>
+            </div>
+            <div><img src="images/profile.jpg" class="profile_img"></div>
+       </section>
+       <!-- My Personal Bio -->
+
+       <!-- My Skills And Expertise-->
+       <section class="expertise">
+            <h2>My Expertise</h2>
+            <div class="skills">
+                <div>
+                    <i class='bx bxl-python skill_icon'></i>
+                    <h3>Python <i class='bx bxs-certification' style='color:#ed1b24; font-size: 1rem;' ></i></h3>
+                    <p>Qualified Python Junior Developer. Python Specialist credited by CERTIPORT.</p>
+                </div>
+                <div>
+                    <i class='bx bxl-html5 skill_icon'></i>
+                    <h3>HTML <i class='bx bxs-certification' style='color:#ed1b24; font-size: 1rem;' ></i></h3>
+                    <p>Qualified Web developer. HTML Specialist credited by CERTIPORT.</p>
+                </div>
+                <div>
+                    <i class='bx bxl-css3 skill_icon'></i>
+                    <h3>CSS <i class='bx bxs-certification' style='color:#ed1b24; font-size: 1rem;' ></i></h3>
+                    <p>Qualified Web developer. CSS Specialist credited by CERTIPORT.</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div>
+                    <i class='bx bxl-javascript skill_icon'></i>
+                    <h3>Javascript <i class='bx bxs-certification' style='color:#ed1b24; font-size: 1rem;' ></i></h3>
+                    <p>Qualified Javascript Developer. Javascript Specialist credited by CERTIPORT.</p>
+                </div>
+                <div>
+                    <i class='bx bxl-php skill_icon'></i>
+                    <h3>Php</h3>
+                    <p>A freelancer Php deveoper. I spent most time as a php developer honing my skills to perfect backend programming.</p>
+                </div>
+                <div>
+                    <i class='bx bx-leaf skill_icon'></i>
+                    <h3>Pascal</h3>
+                    <p>As a freelancer i spent most of my days developing programs as a pascal developer, this led me to undestand desktop and mobile executable programs.</p>
+                </div>
+            </div>
+       </section>
+       <!-- My Skills And Expertise-->
+
+       <div id="projects_anchor"></div>
+       <!-- My Work Samples -->
+       <section class="projects">
+            <h2>My Projects</h2>
+            <div class="my_projects">
+                <div class="programs">
+                    <h3>Brainy</h3>
+                    <img src="images/BRAINY.png">
+                    <h3>Description: </h3>
+                    <p>Project Brainy is a Online Library and Blog Management Systems I developed during the 2022 year. This program allows educational institutions to share educational content with participants of the same institution.</p>
+                    <h3>Technologies:</h3>
+                    <p>DELPHI, PASCAL, SMTP, FTP</p>
+                </div>
+
+                <div class="programs">
+                    <h3>Need For Speed (GUI) theme</h3>
+                    <img src="images/NEED_THEME.png">
+                    <h3>Description: </h3>
+                    <p>A mock application that I designed to manage how certain virus programs (RAT) transfer data back to hackers over the internet. The designs were inspired by the iconic Need for Speed Most Wanted Game.</p>
+                    <h3>Technologies:</h3>
+                    <p>DELPHI, PASCAL, FTP, COOKIES,</p>
+                </div>
+            </div>
+            <div class="my_projects">
+                <div class="programs">
+                    <h3>Treasure Hunt</h3>
+                    <img src="images/TREASURE_HUNT.png">
+                    <h3>Description: </h3>
+                    <p>A command line game i developed in python, the user controlls their character based on a sequence of actions that they respond to in the console. This game was inspired by </p>
+                    <h3>Technologies:</h3>
+                    <p>PYTHON</p>
+                </div>
+
+                <div class="programs">
+                    <h3>Varsity Market API</h3>
+                    <img src="images/varsity_api.png">
+                    <h3>Description: </h3>
+                    <p>To accomodate the multiple sites operating on the Varsitymarket platform i had to create an api to counter the issue of data transfer. This is a private api available to the varsitymarket system, it uses a liscence key to validate the users opertaions.</p>
+                    <h3>Technologies:</h3>
+                    <p> PHP, Python, SQL, JSON, Encryption, SMTP, FTP</p>
+                </div>
+            </div>
+            <div class="my_projects">
+                <div class="programs">
+                    <h3>Reiddrop</h3>
+                    <img src="images/REIDDROP.png">
+                    <h3>Description: </h3>
+                    <p>One of my prized projects, Reiddrop is a ecommerce site i developed for the clothing brand i was working on. This website featured several aesthetic features and complete purchasing functions like checking out, wishlist, analytics and customer support</p>
+                    <h3>Technologies:</h3>
+                    <p>HTML, CSS, JAVASCRIPT, AJAX, XHR, PHP, SQL, COOKIES, JSON</p>
+                </div>
+
+                <div class="programs">
+                    <h3>Varsity Market</h3>
+                    <img src="images/VARSITYMARKET.png">
+                    <h3>Description: </h3>
+                    <p>One of my favourite projects, VARSITYMARKET is an online plattform where businesses can sell their products or services. This plattform is a multi-collaborating program that allows multiple teams to sell different stuff on different online stores that the system manages.</p>
+                    <h3>Technologies:</h3>
+                    <p>HTML, CSS, JAVASCRIPT, AJAX, XHR, PHP, Python, SQL, COOKIES, JSON, Encryption, SMTP, FTP</p>
+                </div>
+            </div>
+
+       </section>
+       <!-- My Work Samples-->
+
+       <div id="contact_anchor"></div>
+       <br>
+        <div class="about_text tx_white">
+            <h3>Contact Me</h3>
+            <p>If you feel interested to hear more about me or my projects feel free to contact me.</p>
+        </div>
+       <!-- Contact Details -->
+       <section class="contact">
+            <div class="form-container">
+                <form class="form" action="php\contact.php" method="POST">
+                <div class="form-group">
+                    <label for="username">Name:</label>
+                    <input required="" name="username" id="username" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required="" name="email" id="email" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input required="" name="phone" id="phone" type="tel">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="form-submit-btn">Submit</button>
+                </div>
+                </form>
+            </div>
+
+            <div>
+                <picture>
+                    <img src="images/contact_me.gif">
+                </picture>
+            </div>
+       </section>
+       <!-- Contact Details -->
+
+       <!-- My Personal Signature-->
+       <section class="signature">
+            <p>Powered By LEVIDOC</p>
+       </section>
+    </body>
+    <script src="js/main.js"></script>
+</html>
