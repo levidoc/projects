@@ -1,0 +1,16 @@
+program pj_need;
+
+uses
+  Forms,
+  need in 'D:\Hastings\PROJECTS\LEVIDOC_PREVIOUS_FILES\NEED-RAPSHEET-THEME\need.pas' {Form1},
+  menu in 'D:\Hastings\PROJECTS\LEVIDOC_PREVIOUS_FILES\NEED-RAPSHEET-THEME\menu.pas' {frmMenu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.Run;
+end.
