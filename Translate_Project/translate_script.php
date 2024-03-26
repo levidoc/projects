@@ -44,7 +44,7 @@
             echo "<p>" . $translated['responseData']['translatedText'] . "</p>";
         } else {
             echo "<h2>Error occurred during translation.</h2>";
-        }
+        } 
     }
     ?>
 
